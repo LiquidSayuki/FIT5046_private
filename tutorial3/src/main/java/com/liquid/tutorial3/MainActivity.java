@@ -11,6 +11,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.liquid.tutorial3.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
@@ -55,6 +56,14 @@ public class MainActivity extends AppCompatActivity {
                 bundle.putParcelable("stu_obj_1", student1);
                 intent.putExtras (bundle);
                 startActivity(intent);
+            }
+        });
+
+        binding.buttonLogout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FirebaseAuth.getInstance().signOut();
+                finish();
             }
         });
     }

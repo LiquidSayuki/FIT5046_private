@@ -3,11 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
     <Button
     android:id="@+id/startButton"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="Start Second Activity" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
@@ -15,4 +17,10 @@
         android:gravity="center"
         android:text="This is the first activity"
         android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log out" />
 </LinearLayout>
