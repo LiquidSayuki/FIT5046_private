@@ -17,3 +17,5 @@ rootProject.name = "Helloworld"
 include ':app'
 include ':tutorial3'
 include ':tutorial4'
+include ':tutorial4:tutorial5'
+include ':tutorial5'
