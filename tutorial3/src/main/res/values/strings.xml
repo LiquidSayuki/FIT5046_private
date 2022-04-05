@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Tutorial3</string>
     <string name="error_message_email">Not a valid Email</string>
+    <string name="weather_api_key">7262ebce72fd75b2ebaaa56a5c686667</string>
 </resources>
