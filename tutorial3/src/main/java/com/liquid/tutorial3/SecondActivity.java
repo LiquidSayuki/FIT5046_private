@@ -1,18 +1,13 @@
 package com.liquid.tutorial3;
 
-import androidx.activity.result.ActivityResult;
-import androidx.activity.result.ActivityResultCallback;
-import androidx.activity.result.ActivityResultLauncher;
-import androidx.activity.result.contract.ActivityResultContract;
-import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
 import com.liquid.tutorial3.databinding.ActivitySecondBinding;
+import com.liquid.tutorial3.pojo.Student;
 
 public class SecondActivity extends AppCompatActivity {
     private ActivitySecondBinding binding;

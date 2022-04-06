@@ -23,10 +23,12 @@ public class CustomerViewModel extends AndroidViewModel {
         cRepository = new CustomerRepository(application);
         allCustomers = cRepository.getAllCustomers();
     }
+
     @RequiresApi(api = Build.VERSION_CODES.N)
     public CompletableFuture<Customer> findByIDFuture(final int customerId){
         return cRepository.findByIDFuture(customerId);
     }
+
     public LiveData<List<Customer>> getAllCustomers() {
         return allCustomers;
     }

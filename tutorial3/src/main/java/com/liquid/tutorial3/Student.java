@@ -3,6 +3,7 @@ package com.liquid.tutorial3;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+
 public class Student implements Parcelable {
     private int id = 0;
     private String name = "";
