@@ -34,7 +34,7 @@ public class WeatherActivity extends AppCompatActivity {
         WeatherApiService service = retrofit.create(WeatherApiService.class);
 
         //Ready to call and get a Root object
-        Call<Root> weather = service.getWeather(-37.813,144.963,"7262ebce72fd75b2ebaaa56a5c686667");
+        Call<Root> weather = service.getWeather(-37.813,144.963,"");
 
 
         weather.enqueue(new Callback<Root>() {
